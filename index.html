@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <ul class="tabs">
+        <li data-tab-target="#first" class="tabs__tab active">Tab 1</li>
+        <li data-tab-target="#second" class="tabs__tab">Tab 2</li>
+        <li data-tab-target="#third" class="tabs__tab">Tab 3</li>
+    </ul>
+
+    <div class="tab__content">
+        <div id="first" data-tab-content class="active">
+            <h1>Tekst</h1> <!--    ID DIVA SE MIJENJA ZAVISNO OD LISTE GORE, STAVLJA SE IME KOJE PAŠE -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus!</p>
+        </div>
+
+        <div id="second" data-tab-content> <!--    ID DIVA SE MIJENJA ZAVISNO OD LISTE GORE, STAVLJA SE IME KOJE PAŠE -->
+            <h1>Tekst2</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus!</p>
+        </div>
+
+        <div id="third" data-tab-content> <!--    ID DIVA SE MIJENJA ZAVISNO OD LISTE GORE, STAVLJA SE IME KOJE PAŠE -->
+            <h1>Tekst3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus!</p>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
